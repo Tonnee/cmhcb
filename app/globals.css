@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   /* colors */
   --color-background: var(--background);
@@ -18,12 +13,6 @@
   /* Fonts */
   --font-marcellus: var(--font-marcellus);
   --font-dm-sans: var(--font-dm-sans);
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .font-marcellus {

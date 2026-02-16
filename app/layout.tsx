@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {Marcellus, DM_Sans} from "next/font/google";
 import "./globals.css";
+import { Navbar } from "@/components/navbar/Navbar";
 
 const marcellus = Marcellus({
     subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${marcellus.variable} ${dmSans.variable} antialiased`}>
+                <Navbar/>
                 {children}
             </body>
         </html>
